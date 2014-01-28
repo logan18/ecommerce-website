@@ -1,23 +1,52 @@
-@charset "UTF-8";
-/* CSS Document */
-
-.btn,
-.btn:link,
-.btn:visited {
+/*
+  Colour Palette
+  
+BABY BOY
+  - Teal: rgba(0,170,186,1.00) #00AABA
+  - Light teal: rgba(231,255,250,1.00) #E7FFFA
+  - Lime Green: rgba(181,181,8,1.00) #8E8E06
+BABY GIRL
+  - Baby Pink : rgba(255,210,247,1.00) #FFD2F7
+  - Bright Pink: rgba(255,136,234,1.00)#FF88EA
+NEUTRALS
+  - Medium Grey/purple: rgba(158,149,157,1.00) #9E959D 
+  - Medium Grey/green: rgba(134,146,144,1.00) #869290
+  -Light Grey: rgba(222,225,224,1.00)#DEE1E0
+  
+ */
+ 
+.btn-boy,
+.btn-boy:link,
+.btn-boy:visited {
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color: #793284;
-	background-image: linear-gradient(to bottom, #793284, #571062);
+	background-image: linear-gradient(to bottom, #00AABA, #E7FFFA);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
 	color: #fff;
 	font-weight: bold;
 }
 
-.btn-alt,
-.btn-alt:link,
-.btn-alt:visited {
-	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+.btn-girl,
+.btn-girl:link,
+.btn-girl:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-image: linear-gradient(to bottom, #FF88EA, #FFD2F7);
+	border-radius: 6px;
+	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
+	color: #fff;
+	font-weight: bold;
 }
 
+.btn-grey,
+.btn-grey:link,
+.btn-grey:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-image: linear-gradient(to bottom, #869290, #DEE1E0);
+	border-radius: 6px;
+	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
+	color: #fff;
+	font-weight: bold;
+}

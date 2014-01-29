@@ -16,7 +16,7 @@ NEUTRALS
  */
  
  body{
-	background-color:rgba(231,255,250,1.00);
+	background-color:rgba(222,225,224,1.00);
  }
  
  html{
@@ -32,6 +32,9 @@ blockquote, table, hr {
 .banner{
 	background-color:rgba(181,181,8,0.47);
 	text-align: center;
+	float: left;
+	width: 100%;
+	
 }
 
 .yotta {

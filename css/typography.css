@@ -26,7 +26,7 @@ NEUTRALS
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 .5rem;
+  margin: 1rem 0 0 .5rem;
 }
 
 .banner{
@@ -34,7 +34,6 @@ blockquote, table, hr {
 	text-align: center;
 	float: left;
 	width: 100%;
-	
 }
 
 .yotta {

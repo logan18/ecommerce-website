@@ -20,7 +20,7 @@ NEUTRALS
 .btn-boy:visited {
 	margin-left: .5rem;
 	display: inline-block;
-	padding: 0.75em 1em;
+	padding: .5em .5em;
 	background-image: linear-gradient(to bottom, #00AABA, #E7FFFA);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
@@ -33,7 +33,7 @@ NEUTRALS
 .btn-girl:visited {
 	margin-left: .5rem;
 	display: inline-block;
-	padding: 0.5em 1em;
+	padding: .5em .5em;
 	background-image: linear-gradient(to bottom, #FF88EA, #FFD2F7);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
@@ -46,7 +46,7 @@ NEUTRALS
 .btn-grey:visited {
 	margin-left: .5rem;
 	display: inline-block;
-	padding: 0.75em 1em;
+	padding: .5em .5em;
 	background-image: linear-gradient(to bottom, #869290, #DEE1E0);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	

@@ -15,9 +15,6 @@ NEUTRALS
   
  */
  
-.img-flex{
-	display: block;
-}
 
 .small-promo{
 	padding: 1rem;
@@ -48,7 +45,7 @@ NEUTRALS
     left: 5px;
     top: 5px;
     background-color: rgba(187,187,187,0.2);
-		width: 98%;
+	width: 98%;
 	font-size: 5.5rem;
 	font-weight:200;
 }

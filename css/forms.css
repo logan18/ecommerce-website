@@ -1,3 +1,104 @@
-@charset "UTF-8";
-/* CSS Document */
+/*
+  Colour Palette
+  
+BABY BOY
+  - Teal: rgba(0,170,186,1.00) #00AABA
+  - Light teal: rgba(231,255,250,1.00) #E7FFFA
+  - Lime Green: rgba(181,181,8,1.00) #8E8E06
+BABY GIRL
+  - Baby Pink : rgba(255,210,247,1.00) #FFD2F7
+  - Bright Pink: rgba(255,136,234,1.00)#FF88EA
+NEUTRALS
+  - Medium Grey/purple: rgba(158,149,157,1.00) #9E959D 
+  - Medium Grey/green: rgba(134,146,144,1.00) #869290
+  -Light Grey: rgba(222,225,224,1.00)#DEE1E0
+ */
+ 
+ body {
+	background: #E7FFFA;
+	color: #000;
+	font: 14px/1.5em "PT Sans", sans-serif;
+	margin: 0;
+}
 
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5em;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }
+
+.container {
+	height: 44px;
+	position: absolute;
+}
+
+/* ---------- SEARCH ---------- */
+
+#search {
+	background: #869290;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 7px;
+}
+
+#search input {
+	float: left;
+}
+
+#search input[type="search"],
+#search input[type="submit"] {
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+#search input[type="search"] {
+	background: #fff;
+	color: #42454e;
+	min-width: 184px;
+	padding: 6px 8px;
+}
+
+#search input[type="submit"] {
+	background: #1bba9a;
+	color: #fff;
+	margin-left: 7px;
+	padding: 6px 10px;
+}
+
+#search input[type="submit"]:hover {
+	background: #00AABA;
+}
+
+#search input[type="search"]::-webkit-input-placeholder { color: #42454e; }
+#search input[type="search"]:-moz-placeholder { color: #42454e; }
+#search input[type="search"]:-ms-input-placeholder { color: #42454e; }

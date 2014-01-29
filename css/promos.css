@@ -23,25 +23,32 @@ NEUTRALS
 	padding: 1rem;
 }
 
+.large-promo{
+	padding: 1rem;
+}
+
 .container {
-    border: 1px solid #DDDDDD;
-    width: 200px;
-    height: 200px;
+	display:block;
     position:relative;
 }
 .tag {
-   float: left;
+	color:#000000;
+	padding-left: 0.5rem;
+	position: absolute;
+	left: 5px;
+	top: 260px;
+	background-color: rgba(224,255,249,0.4);
+	width: 98%;
+}
+
+.header-tag {
+	text-align:center;
 	padding-left: 0.5rem;
     position: absolute;
     left: 5px;
-    top: 260px;
-    background-color: rgba(255,244,253,0.6);
-	width: 100%;
+    top: 5px;
+    background-color: rgba(187,187,187,0.2);
+		width: 98%;
+	font-size: 5.5rem;
+	font-weight:200;
 }
-
-.header{
-	padding-left:0.5rem;
-	background-color:rgba(255,255,255,0.6);
-	width: 355px;
-}
-

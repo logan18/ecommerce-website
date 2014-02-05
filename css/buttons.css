@@ -14,6 +14,12 @@ NEUTRALS
   -Light Grey: rgba(222,225,224,1.00)#DEE1E0
   
  */
+btn-boy:hover,
+btn:focus,
+btn:active{
+	color:#000000;
+}
+
 
 .btn-boy,
 .btn-boy:link,
@@ -24,7 +30,6 @@ NEUTRALS
 	background-image: linear-gradient(to bottom, #00AABA, #E7FFFA);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
-	color: #fff;
 	font-weight: 300;
 }
 
@@ -37,7 +42,6 @@ NEUTRALS
 	background-image: linear-gradient(to bottom, #FF88EA, #FFD2F7);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
-	color: #fff;
 	font-weight: 300;
 }
 
@@ -50,6 +54,5 @@ NEUTRALS
 	background-image: linear-gradient(to bottom, #869290, #DEE1E0);
 	border-radius: 6px;
 	box-shadow:1px 1px 4px rgba(0,0,0,0.5);	
-	color: #fff;
 	font-weight: 300;
 }

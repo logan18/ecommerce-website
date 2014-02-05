@@ -130,8 +130,8 @@ p{
 	color: #fff;
 }
 
-a,
-a:link{
+.a,
+.a:link{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	margin-top: .75rem;
 	color: #9E959D;
@@ -140,19 +140,24 @@ a:link{
 	transition: all 200ms linear;
 }
 
-a:visited{
+.a:visited{
 	color: #9E959D;
 	font-style:italic;
 }
 
-a:hover,
-a:focus,
-a:active{
+.a:hover,
+.a:focus,
+.a:active{
 	color: #fff;
 	border-bottom-color:#8E8E06;
 }
 
 /* GIRL LINK STYLING */
+
+.girl:link{
+	color: #7E0068;
+}
+
 .girl:hover,
 .girl:focus,
 .girl:active{

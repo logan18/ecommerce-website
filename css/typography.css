@@ -36,6 +36,13 @@ blockquote, table, hr {
 	width: 100%;
 }
 
+.xl {
+	padding-top: 1rem;
+	font-size:4rem;
+	line-height: 1.3154;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .yotta {
 	padding-top: 1rem;
 	font-size: 2.2807rem;

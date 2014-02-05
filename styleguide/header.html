@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Search Field</title>
+<title>Header</title>
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700' rel='stylesheet' type='text/css'>	
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="../css/buttons.css" rel="stylesheet">
@@ -12,32 +12,35 @@
 	<link href="../css/promos.css" rel="stylesheet">
 	<link href="../css/forms.css" rel="stylesheet">
 	<link href="../css/grid.css" rel="stylesheet">
-	<link href="..css/common.css" rel="stylesheet">
+	<link href="../css/common.css" rel="stylesheet">
 	<link href="../css/header.css" rel="stylesheet">
-	<link href="../css/footer.css" rel="stylesheet">
+		<link href="../css/footer.css" rel="stylesheet">
 	<link href="../css/product-details.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="container">
-		
-		<div id="search">
 
-			<form action="javascript:void(0);" method="GET">
+<div class="grid-header">
+	<div class="unit gutter unit-s-1 unit-m-2-5 unit-2-5">
+		<p> </p>
+	</div>
+	<div class="unit gutter unit-s-1 unit-m-2-5 unit-2-5">
+		<h2>Unit 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer elit.</p>
+	</div>
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2>Unit 2</h2>
+		<img class="img-flex" src="http://placehold.it/300x200" alt="">	
+	</div>
+	<div class="unit gutter unit-s-1 unit-m-2-5 unit-2-5">
+		<h2>Unit 3</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer elit.</p>
+	</div>
+	<div class="unit gutter unit-s-1 unit-m-2-5 unit-2-5">
+		<p> </p>
+	</div>
+</div>
 
-				<fieldset class="clearfix">
-
-					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
-					<input type="submit" value="Search" class="button">
-
-				</fieldset>
-
-			</form>
-
-		</div> <!-- end search -->
-
-	</div> <!-- end container -->
-	
 </body>
 </html>

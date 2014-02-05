@@ -96,7 +96,15 @@ small, .milli {
 }
 
 h1, h2, h3 ,h4 ,h5, h6,
-.brand {
+.girl {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;	
+	text-transform:uppercase;
+	color: #FF88EA;
+}
+
+h1, h2, h3 ,h4 ,h5, h6,
+.boy {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 400;	
 	text-transform:uppercase;
@@ -122,8 +130,8 @@ p{
 	color: #fff;
 }
 
-a,
-a:link{
+.a,
+.a:link{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	margin-top: .75rem;
 	color: #869290;
@@ -132,15 +140,29 @@ a:link{
 	transition: all 200ms linear;
 }
 
-a:visited{
+.a:visited{
 	color: #9E959D;
 	font-style:italic;
 }
 
-a:hover,
-a:focus,
-a:active{
+.a:hover,
+.a:focus,
+.a:active{
 	color: #fff;
 	border-bottom-color:#8E8E06;
 }
 
+/* GIRL LINK STYLING */
+.girl:hover,
+.girl:focus,
+.girl:active{
+	color:#FFFFFF;
+}
+	
+/* BOY LINK STYLING */
+.boy:hover,
+.boy:focus,
+.boy:active{
+	color:#FFFFFF;
+}
+	

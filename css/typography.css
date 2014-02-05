@@ -140,7 +140,6 @@ a:visited{
 a:hover,
 a:focus,
 a:active{
-	color: #8CFDF5;
-	border-bottom-color: #8E8E06;
+	text-decoration: underline
 }
 

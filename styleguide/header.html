@@ -14,7 +14,7 @@
 	<link href="../css/grid.css" rel="stylesheet">
 	<link href="../css/common.css" rel="stylesheet">
 	<link href="../css/header.css" rel="stylesheet">
-		<link href="../css/footer.css" rel="stylesheet">
+	<link href="../css/footer.css" rel="stylesheet">
 	<link href="../css/product-details.css" rel="stylesheet">
 </head>
 
@@ -22,14 +22,34 @@
 
 
 <div class="grid grid-header">
-	<div class="unit gutter unit-s-1 unit-m-1-3 unit-1-3">
+	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
 		<h2><a href="#"> Boys</a>	</h2>
 		</div>
-	<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
+	<div class="unit gutter unit-s-1 unit-m-1-4 unit-l-1-4">
 		<img class="img-flex" src="http://placehold.it/400x80" alt="">	
 	</div>
-	<div class="unit gutter unit-s-1 unit-m-1-3 unit-1-3">
+	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
 		<h2><a href="#"> Girls</a></h2>	
+	</div>
+	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
+		<div class="container">
+		
+		<div id="search">
+
+			<form action="javascript:void(0);" method="GET">
+
+				<fieldset class="clearfix">
+
+					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+					<input type="submit" value="Search" class="button">
+
+				</fieldset>
+
+			</form>
+
+		</div> <!-- end search -->
+
+	</div> <!-- end container -->	
 	</div>
 </div>
 

@@ -59,6 +59,7 @@ input[type="search"]::-webkit-search-decoration {
 .container {
 	height: 44px;
 	position: absolute;
+	margin-top: 4px;
 }
 
 /* ---------- SEARCH ---------- */

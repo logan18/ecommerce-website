@@ -28,3 +28,8 @@ html {
 	display: block;
 	width: 100%;
 }
+
+.img-flex-inline{
+	display:inline;
+	width: 33.3%;
+	}

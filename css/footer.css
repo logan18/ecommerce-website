@@ -14,38 +14,9 @@ NEUTRALS
   -Light Grey: rgba(222,225,224,1.00)#DEE1E0
   
  */
- 
 
-.small-promo{
-	padding: 1rem;
-}
 
-.large-promo{
-	padding: 1rem;
-}
-
-.container {
-	display:block;
-    position:relative;
-}
-.tag {
-	color:#000000;
-	padding-left: 0.5rem;
-	position: absolute;
-	left: 5px;
-	top: 260px;
-	background-color: rgba(224,255,249,0.4);
-	border-radius: 12px;
-}
-
-.header-tag {
+.grid-footer{
+	background-color: #e7fffa;
 	text-align:center;
-	padding-left: 0.5rem;
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    background-color: rgba(187,187,187,0.2);
-	width: 98%;
-	font-size: 5.5rem;
-	font-weight:200;
 }

@@ -15,10 +15,18 @@ NEUTRALS
   
  */
  
- .grid-details{
+ .grid-details-boy{
 	 background-color: #E7FFFA;
 	 overflow: hidden;
 	 border: 1px solid #00AABA;
+	 vertical-align: central;
+
+ }
+ 
+  .grid-details-girl{
+	 background-color: #FFFAFE;
+	 overflow: hidden;
+	 border: 1px solid #FF88EA;
 	 vertical-align: central;
 
  }

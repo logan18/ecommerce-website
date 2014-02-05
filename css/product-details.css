@@ -15,11 +15,9 @@ NEUTRALS
   
  */
  
-.img-flex{
-	display: block;
-}
+ .grid-details{
+	 background-color:#F4F5F5;
+	 overflow: hidden;
+	 border: 1px solid #00AABA;
 
-.product{
-	padding: 1em;
-	background-color:#F1F2F2;
-}
+ }

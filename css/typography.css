@@ -130,8 +130,8 @@ p{
 	color: #fff;
 }
 
-.a,
-.a:link{
+a,
+a:link{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	margin-top: .75rem;
 	color: #9E959D;
@@ -140,21 +140,23 @@ p{
 	transition: all 200ms linear;
 }
 
-.a:visited{
+a:visited{
 	color: #9E959D;
 	font-style:italic;
 }
 
-.a:hover,
-.a:focus,
-.a:active{
+a:hover,
+a:focus,
+a:active{
 	color: #fff;
 	border-bottom-color:#8E8E06;
 }
 
 /* GIRL LINK STYLING */
 
-.girl:link{
+.girl,
+.girl:link,
+.girl:visited {
 	color: #7E0068;
 }
 
@@ -162,6 +164,12 @@ p{
 .girl:focus,
 .girl:active{
 	color:#FFFFFF;
+}
+
+.boy,
+.boy:link,
+.boy:visited {
+	color: #8E8E06;
 }
 	
 /* BOY LINK STYLING */
@@ -171,3 +179,11 @@ p{
 	color:#FFFFFF;
 }
 	
+mark{
+	background-color:#61F1FF;
+}
+
+table, th, td
+{
+border: 1px solid black;
+}

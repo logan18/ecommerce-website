@@ -1,10 +1,41 @@
-.grid{
-	border: 1px solid #9E959D;
-	overflow: hidden;
+.grid {
+	border: solid 1px #8E8E06;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.31em;
+  text-rendering: optimizespeed;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
 }
 
-.unit{
+.grid-bottom {
+  -webkit-align-items: flex-end;
+  -ms-align-items: flex-end;
+}
+
+.opera-only :-o-prefocus, .grid {
+  word-spacing: -0.43em;
+}
+
+.unit {
 	float:left;
+	letter-spacing: normal;
+	text-rendering: auto;
+	vertical-align: top;
+	word-spacing: normal;
+	display: inline-block;
+	visibility: visible;
+}
+
+.grid-bottom .unit {
+  vertical-align: bottom;
+}
+
+.unit-s-hidden {
+  display: none;
+  visibility: hidden;
 }
 
 .unit-s-1{

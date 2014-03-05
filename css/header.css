@@ -22,5 +22,9 @@ NEUTRALS
 }
 
 .logo{
-	width: 50%;
+	height: 1rem;
+}
+
+.current{
+	background-color:red;
 }

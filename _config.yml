@@ -1,4 +1,4 @@
 markdown: redcarpet
 baseurl: /ecommerce-website
-exclude: [readme.md]
+exclude: [README.md']
 permalink: pretty

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DEFAULT</title>
+<title>{{page.title}} · Little Monkeys </title></title>
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,24 +23,28 @@
 
 </head>
 <body>
+
+{{page.url}}
+
 <div class="grid grid-header">
-	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
-		<h2><a class="current" href="{{site.baseurl}}/about/" > About</a>	</h2>
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+			<h2><a class="baby-logo {% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/"><img src="../images/logo.png"</a> </h2>
 	</div>
 	
-	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
-		<h2><a href="{{site.baseurl}}/../styleguide/product-list-item.html" class="boy"> Boys</a>	</h2>
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2><a class="boy {% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about">About</a></h2>
 	</div>
 	
-	<div class="unit gutter unit-s-1 unit-m-1-4 unit-1-4">
-			<h2><a href="{{site.baseurl}}/index.html" class="logo"><img src="../images/logo.png"</a></a></h2>
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2><a class="boy {% if page.url contains '/grid-boy/' %}current{% endif %}" href="{{site.baseurl}}/grid-boy/">Boys</a></h2>
 	</div>
 	
-	<div class="unit gutter unit-s-1 unit-m-1-4 unit-l-1-4">
-		<h2><a href="{{site.baseurl}}/grid/" class="girl" > Girls</a></h2>	
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+         <h2><a class="{% if page.url contains '/grid-girl/' %}current{% endif %}" href="{{site.baseurl}}/grid-girl/">Girls</a></h2>
 	</div>
-	<div class="unit gutter unit-s-1 unit-m-1-4 unit-l-1-4">
-		<div class="container">
+	
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<div class="container">	
 		<div id="search">
 
 			<form action="javascript:void(0);" method="GET">

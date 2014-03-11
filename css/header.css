@@ -21,10 +21,10 @@ NEUTRALS
 	text-align:center;
 }
 
-.logo{
-	height: 1rem;
+.baby-logo{
+	width:5px
 }
 
 .current{
-	background-color:red;
+	background-color: red;
 }

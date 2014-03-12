@@ -1,13 +1,13 @@
 .grid {
 	border: solid 1px #8E8E06;
-  margin: 0;
-  padding: 0;
-  letter-spacing: -0.31em;
-  text-rendering: optimizespeed;
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  display: -ms-flexbox;
-  -ms-flex-flow: row wrap;
+ 	margin: 0;
+ 	padding: .5rem;
+ 	letter-spacing: -0.31em;
+ 	text-rendering: optimizespeed;
+ 	display: -webkit-flex;
+ 	-webkit-flex-flow: row wrap;
+ 	display: -ms-flexbox;
+ 	-ms-flex-flow: row wrap;
 }
 
 .grid-bottom {

@@ -29,7 +29,7 @@
 
 <div class="grid grid-header">
 	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
-			<h2><a class="baby-logo {% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/"><img src="../images/logo.png"</a> </h2>
+		<h2><a class="baby-logo {% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/"><img src="../images/logo.png"</a> </h2>
 	</div>
 	
 	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
@@ -43,27 +43,33 @@
 	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
          <h2><a class="{% if page.url contains '/grid-girl/' %}current{% endif %}" href="{{site.baseurl}}/grid-girl/">Girls</a></h2>
 	</div>
+</div>
 	
-	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+<div class="grid grid-search">
+	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1">
 		<div class="container">	
 		<div id="search">
-
 			<form action="javascript:void(0);" method="GET">
-
 				<fieldset class="clearfix">
-
-					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value=" "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
 					<input type="submit" value="Search" class="button">
 
 				</fieldset>
 
 			</form>
 
-		</div> <!-- end search -->
-
-	</div> <!-- end container -->	
+		</div> 
 	</div>
 </div>
+</div>
+
+
+
+{% if page.showbanner %}
+<div class="banner">
+	<h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
 {{content}}
 

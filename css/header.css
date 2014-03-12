@@ -32,5 +32,16 @@ NEUTRALS
 }
 
 .current{
-	background-color: red;
+	background-color: #DEE1E0;
+}
+
+.banner{
+	background: #FFD2F7 url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 16em 1em 1em;
+	text-align: center;
+}
+
+.banner h2 {
+	color: #fff;
 }

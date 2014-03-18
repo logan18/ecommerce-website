@@ -1,0 +1,35 @@
+<div class="grid grid-header">
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/"><img class="baby-logo" src="../images/logo.png"</a> </h2>
+	</div>
+	
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2><a class="boy {% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about">About</a></h2>
+	</div>
+	
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+		<h2><a class="boy {% if page.url contains '/grid-boy/' %}current{% endif %}" href="{{site.baseurl}}/grid-boy/">Boys</a></h2>
+	</div>
+	
+	<div class="unit gutter unit-s-1 unit-m-1-5 unit-l-1-5">
+         <h2><a class="{% if page.url contains '/grid-girl/' %}current{% endif %}" href="{{site.baseurl}}/grid-girl/">Girls</a></h2>
+	</div>
+</div>
+	
+<div class="grid grid-search">
+	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1">
+		<div class="container">	
+		<div id="search">
+			<form action="javascript:void(0);" method="GET">
+				<fieldset class="clearfix">
+					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value=" "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+					<input type="submit" value="Search" class="button">
+
+				</fieldset>
+
+			</form>
+
+		</div> 
+	</div>
+</div>
+</div>

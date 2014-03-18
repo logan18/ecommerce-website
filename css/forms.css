@@ -58,9 +58,9 @@ input[type="search"]::-webkit-search-decoration {
 .clearfix:after { clear: both; }
 
 .container {
+	margin: 0 auto;
 	height: 44px;
-	position: absolute;
-	margin-top: 4px;
+	text-align: center;
 }
 
 /* ---------- SEARCH ---------- */
@@ -85,8 +85,8 @@ input[type="search"]::-webkit-search-decoration {
 #search input[type="search"] {
 	background: #fff;
 	color: #42454e;
-	min-width: 30%;
 	padding: 6px 8px;
+	width: 200px
 }
 
 #search input[type="submit"] {

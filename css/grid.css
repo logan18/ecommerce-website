@@ -15,6 +15,11 @@
   -ms-align-items: flex-end;
 }
 
+.grid-promo-large {
+	max-width: 600px;
+	background-color: #E4FCFF;
+}
+
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em;
 }

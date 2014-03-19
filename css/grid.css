@@ -1,7 +1,7 @@
 .grid {
-	border: solid 1px #8E8E06;
  	margin: 0;
- 	padding: .5rem;
+ 	padding: .25rem;
+	padding-bottom: .5rem;
  	letter-spacing: -0.31em;
  	text-rendering: optimizespeed;
  	display: -webkit-flex;
@@ -16,8 +16,13 @@
 }
 
 .grid-promo-large {
+	margin: 0 auto;
 	max-width: 600px;
-	background-color: #E4FCFF;
+	background-color: #CBBA82;
+}
+
+.grid-promo-small {
+	background-color: #9B6840;
 }
 
 .opera-only :-o-prefocus, .grid {

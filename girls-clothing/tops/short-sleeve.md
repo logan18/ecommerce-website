@@ -1,10 +1,9 @@
 ---
 layout: boys-clothing
-title: Long Sleeve
+title: Short Sleeve
 meta: Affordable and Adorable Clothing for your little monkeys!
-type: tops
 bannertext: short-sleeve
 showbanner: yes
 ---
 
-<h1>Long Sleeve</h1>
+<h1> Short Sleeve Shirts </h1>

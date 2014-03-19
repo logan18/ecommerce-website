@@ -1,0 +1,9 @@
+<ul>
+ {% for boys-clothing in site.pages %}
+ {% if boys-clothing.type == 'tops' %}
+	<li>
+	 {{boys-clothing.title}}
+	</li>
+ {% endif %}
+ {% endfor %}
+</ul>

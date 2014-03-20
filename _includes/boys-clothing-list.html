@@ -1,8 +1,8 @@
 <ul>
- {% for boys-clothing in site.pages %}
- {% if boys-clothing.type == 'tops' %}
+ {% for boys_clothing in site.pages %}
+ {% if boys_clothing.category == include.category %}
 	<li>
-	 {{boys-clothing.title}}
+	 {{boys_clothing.title}}
 	</li>
  {% endif %}
  {% endfor %}

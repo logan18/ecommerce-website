@@ -193,6 +193,13 @@ background-color: #CFFFF6;
 height:50px;
 }
 
+.th-img{
+	height: 150px;
+}
+
 td{
 	padding: 1rem;
 }
+
+.cart{
+	max-width: 120px;

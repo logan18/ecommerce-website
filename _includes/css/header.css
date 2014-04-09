@@ -37,7 +37,7 @@ NEUTRALS
 .banner{
 	background: #FFD2F7 url("../images/banner.jpg") no-repeat center center;
 	background-size:cover;
-	padding: 16em 1em 1em-;
+	padding: 16em 1em 1em;
 	text-align: center;
 }
 

@@ -89,7 +89,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 #search input[type="submit"] {
-	background: #1bba9a;
+	background: lightgreen;
 	color: #fff;
 	margin-left: 7px;
 	padding: 6px 10px;

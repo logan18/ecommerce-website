@@ -58,7 +58,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- No major issues
+- Some glitches in tabbing between home and about (FIXED)
 
 ### Minor, Annoying, Won’t Hinder Completion
 

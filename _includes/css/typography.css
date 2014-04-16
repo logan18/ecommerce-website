@@ -16,7 +16,7 @@ NEUTRALS
  */
  
 body{
-	background-color:#C0B494;
+	background-color:#846E58;
  }
  
  html{
@@ -160,27 +160,18 @@ input:focus{
 	outline:3px solid #000;
 }
 
-/* GIRL LINK STYLING */
-
-.girl,
-.girl:link,
-.girl:visited {
-	color: #7E0068;
-}
-
-.girl:hover,
-.girl:focus,
-.girl:active{
-	color:#FFFFFF;
-}
+/* BOY LINK STYLING */
 
 .boy,
-.boy:link,
-.boy:visited {
-	color: #8E8E06;
+.boy:link,{
+	color: #B8E62E;
+}
+
+.boy:visited{
+	color: #7A991F;
+
 }
 	
-/* BOY LINK STYLING */
 .boy:hover,
 .boy:focus,
 .boy:active{

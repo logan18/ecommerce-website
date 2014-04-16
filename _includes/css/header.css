@@ -2,9 +2,8 @@
   Colour Palette
   
 BABY BOY
-  - Teal: rgba(0,170,186,1.00) #00AABA
-  - Light teal: rgba(231,255,250,1.00) #E7FFFA
-  - Lime Green: rgba(181,181,8,1.00) #8E8E06
+	- Light green : #B8E62E
+	- medium green: #81A120;
 BABY GIRL
   - Baby Pink : rgba(255,210,247,1.00) #FFD2F7
   - Bright Pink: rgba(255,136,234,1.00)#FF88EA
@@ -17,7 +16,7 @@ NEUTRALS
  
 
 .grid-header{
-	background-color: #DEE1E0;
+	background-color: #846E58;
 	text-align:center;
 }
 
@@ -27,17 +26,21 @@ NEUTRALS
 
 
 .baby-logo{
-	width:75px
+	width:75px;
+}
+
+.logo-box{
+	margin: 0 auto;
 }
 
 .current{
-	background-color: #DEE1E0;
+	border-bottom: 2px solid #fff;
 }
 
 .banner{
 	background: #FFD2F7 url("../images/banner.jpg") no-repeat center center;
 	background-size:cover;
-	padding: 16em 1em 1em;
+	padding: 4em 1em 1em;
 	text-align: center;
 }
 

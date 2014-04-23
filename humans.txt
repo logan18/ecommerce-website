@@ -1,0 +1,13 @@
+/* TEAM */
+
+Designer & Developer: Logan Brandwood
+Contact: l.brandwood@hotmail.com
+Twitter: @loganbrandwood
+Location: Ottawa, Canada
+
+
+/* SITE */
+Last update: 2013/11/15
+Standards: HTML5, CSS3
+Components: Modernizr, Jquery, etc...
+Software: Adobe, Livereload, Sublime Text 2

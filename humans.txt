@@ -7,7 +7,31 @@ Location: Ottawa, Canada
 
 
 /* SITE */
-Last update: 2013/11/15
+Last update: 2014/04/23
 Standards: HTML5, CSS3
-Components: Modernizr, Jquery, etc...
+Components: Jekyl
 Software: Adobe, Livereload, Sublime Text 2
+
+
+/* IMAGES */
+
+Thanks
+
+Large Promo:
+
+© Quinn Dombrowski https://www.flickr.com/photos/quinnanya/
+
+
+Small Promo:
+
+© Catherine Todd https://flic.kr/p/7dExQQ
+
+© Barbara Naomi https://www.flickr.com/photos/106724013@N02/
+
+© Barbara Naomi https://flic.kr/p/gZSVnW
+
+
+Boys Clothing:
+
+
+Girls Clothing:

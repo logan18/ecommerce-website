@@ -10,7 +10,7 @@ Location: Ottawa, Canada
 Last update: 2014/04/23
 Standards: HTML5, CSS3
 Components: Jekyl
-Software: Adobe, Livereload, Sublime Text 2
+Software: Adobe Dreamweaver, Sublime Text 2, Github
 
 
 /* IMAGES */
